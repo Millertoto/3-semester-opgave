@@ -1,0 +1,6 @@
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csproj.CoreCompileInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.RazorAssemblyInfo.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.RazorAssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.AssemblyInfo.cs

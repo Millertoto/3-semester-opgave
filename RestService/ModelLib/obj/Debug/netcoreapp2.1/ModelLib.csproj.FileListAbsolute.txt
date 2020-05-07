@@ -1,0 +1,9 @@
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.deps.json
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csproj.CoreCompileInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.pdb
