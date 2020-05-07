@@ -4,12 +4,13 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Routing;
 using ModelLib.Model;
 
 namespace Flybooking2.Controllers
 
 {
-    [Route("api/[controller]")]
+    [Route("api/localFlights")]
     [ApiController]
     public class FlightsController : ControllerBase
     {
@@ -30,10 +31,17 @@ namespace Flybooking2.Controllers
         }
 
         // GET: api/Flights/5
-        [HttpGet("{id}", Name = "Get")]
+        [HttpGet]
+        [Route("{flightNr}")]
         public Flight Get(string FlightNr)
         {
             return flights.Find(i => i.FlightNr == FlightNr);
+        } 
+        [HttpGet]
+        [Route("{FlightNr}")]
+        public IEnumerable<Flight> GetFromSubstring(string substring)
+        {
+            return flights.FindAll(i => i.FlightNr.Contains(substring));
         }
 
         // POST: api/Flights

@@ -16,7 +16,7 @@ namespace TestBooking
             FlightsController controller = new FlightsController();
             var result = controller.GetAllFlights() as List<Flight>;
 
-            Assert.AreEqual(6, result.Count);
+            Assert.AreEqual(5, result.Count);
         }
     }
 }
