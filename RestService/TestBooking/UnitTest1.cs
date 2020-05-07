@@ -18,5 +18,15 @@ namespace TestBooking
 
             Assert.AreEqual(5, result.Count);
         }
+
+        [TestMethod]
+        public void GetSpecificFlightTest()
+        {
+            FlightsController controller = new FlightsController();
+
+            var result = controller.GetSpecificFlight("Zf9-2tk");
+
+            Assert.AreEqual(9, result.Capacity);
+        }
     }
 }

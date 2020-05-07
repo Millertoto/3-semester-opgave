@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\osman\\OneDrive\\Skrivebord\\Flybooking projekt\\Flybooking2\\ModelLib\\ModelLib.csproj": {}
+    "C:\\Users\\Jesper Hansen\\Documents\\Afleverings opgaver\\3-semester-opgave\\RestService\\ModelLib\\ModelLib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\osman\\OneDrive\\Skrivebord\\Flybooking projekt\\Flybooking2\\ModelLib\\ModelLib.csproj": {
+    "C:\\Users\\Jesper Hansen\\Documents\\Afleverings opgaver\\3-semester-opgave\\RestService\\ModelLib\\ModelLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\osman\\OneDrive\\Skrivebord\\Flybooking projekt\\Flybooking2\\ModelLib\\ModelLib.csproj",
+        "projectUniqueName": "C:\\Users\\Jesper Hansen\\Documents\\Afleverings opgaver\\3-semester-opgave\\RestService\\ModelLib\\ModelLib.csproj",
         "projectName": "ModelLib",
-        "projectPath": "C:\\Users\\osman\\OneDrive\\Skrivebord\\Flybooking projekt\\Flybooking2\\ModelLib\\ModelLib.csproj",
-        "packagesPath": "C:\\Users\\osman\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\osman\\OneDrive\\Skrivebord\\Flybooking projekt\\Flybooking2\\ModelLib\\obj\\",
+        "projectPath": "C:\\Users\\Jesper Hansen\\Documents\\Afleverings opgaver\\3-semester-opgave\\RestService\\ModelLib\\ModelLib.csproj",
+        "packagesPath": "C:\\Users\\Jesper Hansen\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jesper Hansen\\Documents\\Afleverings opgaver\\3-semester-opgave\\RestService\\ModelLib\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\osman\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Jesper Hansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +46,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.4.1, )"
             }
           },
           "imports": [
@@ -55,7 +62,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

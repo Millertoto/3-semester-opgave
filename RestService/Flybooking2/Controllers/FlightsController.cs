@@ -16,7 +16,7 @@ namespace Flybooking2.Controllers
     {
         private static List<Flight> flights = new List<Flight>()
         {
-            new Flight("", "", "", 5.7, 10.3, 9, 50.59),
+            new Flight("Zf9-2tk", "", "", 5.7, 10.3, 9, 50.59),
             new Flight("", "", "", 10.7, 20.3, 18, 60.69),
             new Flight("", "", "", 20.7, 30.3, 36, 70.79),
             new Flight("", "", "", 30.7, 40.3, 50, 50.50),
@@ -32,14 +32,17 @@ namespace Flybooking2.Controllers
 
         // GET: api/Flights/5
         [HttpGet]
-        [Route("{flightNr}")]
-        public Flight Get(string FlightNr)
+        [Route("{FlightNr}")]
+        public Flight GetSpecificFlight(string FlightNr)
         {
+            //Flight f1 = new Flight();
+            //f1 = flights.Find(i => i.FlightNr.Contains(FlightNr));
+            //return f1;
             return flights.Find(i => i.FlightNr == FlightNr);
         } 
         [HttpGet]
         [Route("{FlightNr}")]
-        public IEnumerable<Flight> GetFromSubstring(string substring)
+        public IEnumerable<Flight> GetFromSubstring(String substring)
         {
             return flights.FindAll(i => i.FlightNr.Contains(substring));
         }

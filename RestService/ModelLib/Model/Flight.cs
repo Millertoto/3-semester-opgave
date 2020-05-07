@@ -24,13 +24,14 @@ namespace ModelLib.Model
             double travelTime, int capacity, double fuelConsumption)
 
         {
-            _flightNr = flightNr;
-            _departure = departure;
-            _destination = destination;
-            _distance = distance;
-            _travelTime = travelTime;
-            _capacity = capacity;
-            _fuelConsumption = fuelConsumption;
+            // _flightNr = flightNr;
+            FlightNr = flightNr;
+            Departure = departure;
+            Destination = destination;
+            Distance = distance;
+            TravelTime = travelTime;
+            Capacity = capacity;
+            FuelConsumption = fuelConsumption;
         }
 
         public string FlightNr
