@@ -1,9 +1,0 @@
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\bin\Release\netcoreapp2.1\ModelLibB.deps.json
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\bin\Release\netcoreapp2.1\ModelLibB.dll
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\bin\Release\netcoreapp2.1\ModelLibB.pdb
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.csprojAssemblyReference.cache
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.csproj.CoreCompileInputs.cache
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.AssemblyInfoInputs.cache
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.AssemblyInfo.cs
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.dll
-C:\Users\Jesper Hansen\Documents\Bibliotek\Teknik\Træningsøvelser\RestBookService\ModelLibB\obj\Release\netcoreapp2.1\ModelLibB.pdb
