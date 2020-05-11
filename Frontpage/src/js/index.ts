@@ -12,11 +12,11 @@ interface Booking {
     Co2PerPassager: number;
     Co2PerKM: number;
     destination: string;
-    flyNummer: number;
+    flightNr: string;
 }
 
 
-let baseUri: string = "http://jsonplaceholder.typicode.com/posts"
+let baseUri: string = "http://localhost:51210/api/localFlights"
 
 var app = new Vue({
     el: "#app",
@@ -25,7 +25,7 @@ var app = new Vue({
         errors:[],
         deleteId: 0,
         deleteMessage: "",
-        formData: {flyNummer:0, destination:"",flytype:"", tid:0, mellemstop:"", selskab:"", vejr:"", Co2PerPassager:0, Co2PerKM:0}
+        formData: {flyNummer:"", destination:"",flytype:"", tid:0, mellemstop:"", selskab:"", vejr:"", Co2PerPassager:0, Co2PerKM:0}
     },
     
 
@@ -34,6 +34,7 @@ var app = new Vue({
             axios.get<Booking[]>(baseUri)
             .then((Response: AxiosResponse<Booking[]>)=>{
                 this.Bookings= Response.data
+                console.log(Response.data)
             })
             .catch((error:AxiosError) =>{
                 console.log(error.message)
