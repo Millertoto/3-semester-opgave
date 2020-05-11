@@ -21,3 +21,24 @@ C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestServi
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csproj.CopyComplete
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.dll
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Flybooking2.deps.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Flybooking2.runtimeconfig.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Flybooking2.runtimeconfig.dev.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Flybooking2.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\Flybooking2.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\bin\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.RazorAssemblyInfo.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.RazorAssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.AssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.RazorTargetAssemblyInfo.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csproj.CopyComplete
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.genruntimeconfig.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\Flybooking2\obj\Debug\netcoreapp2.1\Flybooking2.csproj.CoreCompileInputs.cache

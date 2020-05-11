@@ -30,6 +30,7 @@ namespace Flybooking2
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Flights API", Version = "v1.0"});
             });
+            services.AddCors();
 
         }
 
@@ -45,6 +46,11 @@ namespace Flybooking2
             app.UseSwaggerUI(c =>
             c.SwaggerEndpoint("/swagger/v1/swagger.json", "Flights API v1.0")
             );
+            app.UseCors(
+                options =>
+                {
+                    options.AllowAnyOrigin().AllowAnyMethod();
+                });
             app.UseMvc();
         }
     }
