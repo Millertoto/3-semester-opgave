@@ -1,0 +1,49 @@
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.deps.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.runtimeconfig.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.runtimeconfig.dev.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.pdb
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Flybooking2.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Flybooking2.pdb
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.csprojAssemblyReference.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.AssemblyInfoInputs.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.AssemblyInfo.cs
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.csproj.CopyComplete
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.deps.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.runtimeconfig.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.runtimeconfig.dev.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\TestBooking.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Flybooking2.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Flybooking2.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.AssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.csproj.CopyComplete
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.genruntimeconfig.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\testhost.exe
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\bin\Debug\netcoreapp2.1\testhost.dll
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp2.1\TestBooking.genruntimeconfig.cache
