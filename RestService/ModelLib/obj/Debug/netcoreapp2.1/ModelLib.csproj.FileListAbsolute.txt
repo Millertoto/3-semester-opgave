@@ -11,8 +11,16 @@ C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestServi
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.dll
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.pdb
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csprojAssemblyReference.cache
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csproj.CoreCompileInputs.cache
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfoInputs.cache
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfo.cs
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.dll
 C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.deps.json
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\bin\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.AssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Debug\netcoreapp2.1\ModelLib.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\RestConsumer.exe
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\ModelLib.dll
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\bin\Debug\netcoreapp3.1\ModelLib.pdb
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\obj\Debug\netcoreapp3.1\RestConsumer.csprojAssemblyReference.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\obj\Debug\netcoreapp3.1\RestConsumer.AssemblyInfoInputs.cache
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\obj\Debug\netcoreapp3.1\RestConsumer.AssemblyInfo.cs
+C:\Users\osman\OneDrive\Skrivebord\3-semester-opgave\RestService\RestConsumer\obj\Debug\netcoreapp3.1\RestConsumer.csproj.CopyComplete
