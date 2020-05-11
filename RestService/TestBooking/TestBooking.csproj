@@ -1,12 +1,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+
     <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
 
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
   <ItemGroup>
+
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.1" />
@@ -24,6 +29,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Flybooking2\Flybooking2.csproj" />
     <ProjectReference Include="..\ModelLib\ModelLib.csproj" />
+
   </ItemGroup>
 
 </Project>
