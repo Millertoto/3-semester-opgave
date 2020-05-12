@@ -4,15 +4,15 @@ import axios, {
 } from "../../node_modules/axios/index"
 
 interface Booking {
-    flytype: string;
-    tid: number;
-    mellemstop: string;
-    selskab: string;
-    vejr: string;
-    Co2PerPassager: number;
-    Co2PerKM: number;
-    destination: string;
     flightNr: string;
+    departure: string;
+    destination: string;
+    distance:number;
+    travelTime: number;
+    stopOver: string;
+    company: string;
+    capacity: number;
+    fuelConsumption:number;
 }
 
 
