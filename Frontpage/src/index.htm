@@ -1,8 +1,7 @@
 <!doctype html>
 <html lang="en-US">
-  
 <head>
- <!-- Latest compiled and minified CSS -->
+   <!-- Latest compiled and minified CSS -->
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
  <!-- jQuery library -->
@@ -12,32 +11,51 @@
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
  
  <!-- Latest compiled JavaScript -->
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Coding Template</title>
-  <link rel="stylesheet" type="text/css" href="styles.scss">
-  
+  <link rel="stylesheet" type="text/css" href="bundle.css">
 </head>
 
 <body>
   <div id="DivUpperBox" style="border-style: groove; border-color: black; height: 250px;">
     <img style="display: block; margin-left: auto; margin-right: auto; " src="fly22.PNG" alt="Peter" width="1000" height="400">
   </div>
-  <div style="text-align: right;">
-    
-    <h2>Fly Booking 2.0</h2>
-   <input id="deleteInput" placeholder="Indstast destination" /> 
-    <button id="getByIdButton" class="btn btn-primary">Find rejse</button>
-    <!-- <button id="deleteButton" class="btn btn-danger">Delete</button> -->
-    
-    <div id="contentDeleteOrGetById"></div>
-    <button id="getAllButton">Get all Bookings</button>
-    
+  <div id="app">
+  <input type="Destination" v-model.string="Destination">
+  <button id="all" v-on:click="getAllBookings">get All Bookings</button>
+  <ul v-if=Bookings.length>
+    <li v-for="booking in Bookings">
+      <p>
+        FlyNummer:
+        {{booking.flightNr}}
+      </p>
+      <h3>
+        Destination:
+        {{booking.destination}}
+      </h3>
+      <p>
+        firma:
+        {{booking.company}}
+      </p>
+      <p>
+        tid:
+        {{booking.travelTime}}
+      </p>
+    </li>
+  </ul>
+  <div v-else>
+    <p>
+      Element ikke fundet
+    </p>
   </div>
-  <div id="content"></div>
 
-  <div id="content123"></div>
+
+
+  </div>
+    
   <script src="bundle.js"></script>
 </body>
 </html>
