@@ -16,7 +16,7 @@ interface Booking {
 }
 
 
-let baseUri: string = "http://jsonplaceholder.typicode.com/posts"
+let baseUri: string = "https://flybooking2202.azurewebsites.net/api/localFlights"
 
 var app = new Vue({
     el: "#app",
