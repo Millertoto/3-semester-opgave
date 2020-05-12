@@ -103,3 +103,7 @@ C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\TestBooking\bi
 C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\TestBooking\bin\Debug\netcoreapp3.1\Flybooking2.dll
 C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\TestBooking\bin\Debug\netcoreapp3.1\ModelLib.dll
 C:\Users\osman\OneDrive\Skrivebord\Flybooking projekt\Flybooking2\TestBooking\bin\Debug\netcoreapp3.1\ModelLib.pdb
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp3.1\TestBooking.csprojAssemblyReference.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp3.1\TestBooking.csproj.CoreCompileInputs.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp3.1\TestBooking.AssemblyInfoInputs.cache
+C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\TestBooking\obj\Debug\netcoreapp3.1\TestBooking.AssemblyInfo.cs

@@ -21,10 +21,10 @@ namespace ModelLib.Model
         }
 
         public Flight(string flightNr, string departure, string destination, double distance,
-            double travelTime, int capacity, double fuelConsumption)
+            double travelTime, int capacity, double fuelConsumption, bool stopOver, string company)
 
         {
-            // _flightNr = flightNr;
+            
             FlightNr = flightNr;
             Departure = departure;
             Destination = destination;
@@ -32,6 +32,8 @@ namespace ModelLib.Model
             TravelTime = travelTime;
             Capacity = capacity;
             FuelConsumption = fuelConsumption;
+            StopOver = stopOver;
+            Company = company;
         }
 
         public string FlightNr
@@ -73,9 +75,14 @@ namespace ModelLib.Model
             set;
         }
 
+        public bool StopOver { get; set; }
+
+        public string Company { get; set; }
+
         public string ToString()
         {
-            return FlightNr + " " + Departure + " " + Destination + " " + Capacity + " " + TravelTime + " " + FuelConsumption + " " + Distance;
+            return FlightNr + " " + Departure + " " + Destination + " " + Capacity + " " +
+                TravelTime + " " + FuelConsumption + " " + Distance + " " + StopOver + " " + Company;
         }
     }
 }
