@@ -1,9 +1,0 @@
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\bin\Release\netcoreapp2.1\ModelLib.deps.json
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\bin\Release\netcoreapp2.1\ModelLib.dll
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\bin\Release\netcoreapp2.1\ModelLib.pdb
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.csprojAssemblyReference.cache
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.csproj.CoreCompileInputs.cache
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.AssemblyInfoInputs.cache
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.AssemblyInfo.cs
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.dll
-C:\Users\Jesper Hansen\Documents\Afleverings opgaver\3-semester-opgave\RestService\ModelLib\obj\Release\netcoreapp2.1\ModelLib.pdb
