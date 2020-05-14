@@ -27,7 +27,7 @@
   <input type="Destination" v-model.string="Destination">
   <button id="all" v-on:click="getAllBookings">get All Bookings</button>
   <ul v-if=Bookings.length>
-    <li v-for="booking in Bookings">
+    <li v-for="(booking, index) in Bookings">
       <p>
         FlyNummer:
         {{booking.flightNr}}
@@ -44,6 +44,13 @@
         tid:
         {{booking.travelTime}}
       </p>
+      <button v-on:click="selectedFlight(index)">Bestil</button>
+      <!-- <ul v-if=Weather.length>
+        <p>
+          Temp:
+
+        </p>
+      </ul> -->
     </li>
   </ul>
   <div v-else>

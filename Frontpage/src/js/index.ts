@@ -16,13 +16,16 @@ interface Booking {
 }
 
 
-let baseUri: string = "http://localhost:51210/api/localFlights"
+let baseUri: string = "https://flybooking2202.azurewebsites.net/api/localFlights"
 
 var app = new Vue({
     el: "#app",
     data:{
         Bookings:[],
-        errors:[],
+        Errors:[],
+        currentTemp:'',
+        wind:'',
+        overcast:'',
         deleteId: 0,
         deleteMessage: "",
         formData: {flyNummer:"", destination:"",flytype:"", tid:0, mellemstop:"", selskab:"", vejr:"", Co2PerPassager:0, Co2PerKM:0}
@@ -60,6 +63,21 @@ var app = new Vue({
             .catch((error:AxiosError) =>{
                 console.log(error.message)
             })
-        }
+        },
+        selectedFlight(i: any){
+            this.getWeather(i)
+        },
+         getWeather(i: any){
+             console.log(this.Bookings[i].destination)
+             let uri: string = "api.openweathermap.org/data/2.5/weather?q=" + this.Bookings[i].destination + "&?units=metric&appid=08c6c9bc2e7946dc93f20fedbc40afd0"
+             axios.get(uri)
+             .then(Response => {
+                 console.log(Response.data);
+             })
+             .catch(Error => {
+                 console.log(Error);
+                 
+             });
+         }
     }
 })
