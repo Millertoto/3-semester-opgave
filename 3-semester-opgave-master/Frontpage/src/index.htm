@@ -45,15 +45,7 @@
         {{booking.travelTime}}
       </p>
       <button v-on:click="selectedFlight(index)">Bestil</button>
-<<<<<<< Updated upstream:Frontpage/src/index.htm
-      <!-- <ul v-if=Weather.length>
-        <p>
-          Temp:
-
-        </p>
-      </ul> -->
-=======
-      <ul v-if=show>
+      <ul v-if=clickedIndex == index>
         <p>
           Temp:
           {{currentTemp}}
@@ -62,7 +54,6 @@
       <div v-else>
         <p>Element ikke fundet</p>
       </div>
->>>>>>> Stashed changes:3-semester-opgave-master/Frontpage/src/index.htm
     </li>
   </ul>
   <div v-else>

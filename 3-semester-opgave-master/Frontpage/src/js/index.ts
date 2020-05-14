@@ -16,11 +16,7 @@ interface Booking {
 }
 
 
-<<<<<<< Updated upstream:Frontpage/src/js/index.ts
-let baseUri: string = "https://flybooking2202.azurewebsites.net/api/localFlights"
-=======
 let baseUri: string = "https://flightbookinginmemdb2020.azurewebsites.net/api/Flights"
->>>>>>> Stashed changes:3-semester-opgave-master/Frontpage/src/js/index.ts
 
 var app = new Vue({
     el: "#app",
@@ -33,7 +29,7 @@ var app = new Vue({
         deleteId: 0,
         deleteMessage: "",
         formData: {flyNummer:"", destination:"",flytype:"", tid:0, mellemstop:"", selskab:"", vejr:"", Co2PerPassager:0, Co2PerKM:0},
-        show: false
+        clickedIndex: 0
     },
     
 
@@ -70,20 +66,11 @@ var app = new Vue({
             })
         },
         selectedFlight(i: any){
-<<<<<<< Updated upstream:Frontpage/src/js/index.ts
-=======
-            this.show = true;
->>>>>>> Stashed changes:3-semester-opgave-master/Frontpage/src/js/index.ts
+            this.clickedIndex = i
             this.getWeather(i)
         },
          getWeather(i: any){
              console.log(this.Bookings[i].destination)
-<<<<<<< Updated upstream:Frontpage/src/js/index.ts
-             let uri: string = "api.openweathermap.org/data/2.5/weather?q=" + this.Bookings[i].destination + "&?units=metric&appid=08c6c9bc2e7946dc93f20fedbc40afd0"
-             axios.get(uri)
-             .then(Response => {
-                 console.log(Response.data);
-=======
              let uri: string = "http://api.openweathermap.org/data/2.5/weather?q=" + this.Bookings[i].destination + "&?units=metric&appid=08c6c9bc2e7946dc93f20fedbc40afd0"
              axios.get(uri)
              .then(Response => {
@@ -92,7 +79,6 @@ var app = new Vue({
                  this.wind= Response.data.wind.speed + "m/s";
                  this.overcast= Response.data.weather[0].description;
                  console.log(this.currentTemp);
->>>>>>> Stashed changes:3-semester-opgave-master/Frontpage/src/js/index.ts
              })
              .catch(Error => {
                  console.log(Error);
