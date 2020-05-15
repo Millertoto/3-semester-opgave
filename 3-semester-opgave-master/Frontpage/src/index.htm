@@ -44,25 +44,30 @@
         tid:
         {{booking.travelTime}}
       </p>
-      <button v-on:click="selectedFlight(index)">Bestil</button>
-<<<<<<< Updated upstream:Frontpage/src/index.htm
-      <!-- <ul v-if=Weather.length>
+      
+      <button v-on:click="selectedFlight(index)">Vis mere</button>
+      <ul v-if="show == index">
         <p>
-          Temp:
-
+          CO2 udledning per. passager:
+          {{CO2PerPassenger}}
         </p>
-      </ul> -->
-=======
-      <ul v-if=show>
         <p>
-          Temp:
+          Temperatur:
           {{currentTemp}}
         </p>
+        <p>
+          Vindstyrke:
+          {{wind}}
+        </p>
+        <p>
+          Vejrbeskrivelse:
+          {{overcast}}
+        </p>
+        <button v-on:click="BookSeat()">Bestil</button>
       </ul>
       <div v-else>
-        <p>Element ikke fundet</p>
+        
       </div>
->>>>>>> Stashed changes:3-semester-opgave-master/Frontpage/src/index.htm
     </li>
   </ul>
   <div v-else>
