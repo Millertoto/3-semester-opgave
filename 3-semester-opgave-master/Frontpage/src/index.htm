@@ -17,57 +17,65 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Coding Template</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
-  <link rel="stylesheet1" href="scss/styles.scss">
 </head>
 
 <body>
-  <div id="DivUpperBox" >
-    <img style="display: block; margin-left: auto; margin-right: auto; " src="fly22.PNG" alt="Peter" width="1000" height="400">
+  <div id="DivUpperBox" style="border-style: groove; border-color: black; height: 250px;">
+    <img style="display: block; margin-left: auto; margin-right: auto; " src="fly22.PNG" alt="Fly Logo" width="1000" height="400">
   </div>
   <div id="app">
+    
     <div>
       <ul v-if=measurements.length>
        <div v-for="(measurement, index) in measurements">
          <div v-if="index == measurements.length -1">
-         <p>
-           
-           Temperature
-           {{measurement.temperature}},  
-           pressure
-           {{measurement.pressure}},
-           Humidity
-           {{measurement.humidity}}
-         
-         </p>
+          <div class="w3-container">
+            <h2>Measurements</h2>
+            <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black">Open Measurements</button>
+          
+            <div id="id01" class="w3-modal">
+              <div class="w3-modal-content">
+                <div class="w3-container">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                  <p>
+                    Temperature: {{measurement.temperature}}°C
+                    <br/>
+                    Pressure: {{measurement.pressure}} hPa
+                    <br/>
+                    Humidity: {{measurement.humidity}}%
+                  </p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
        </div>
       </ul>
     </div>
 
-
   <input type="Destination" v-model.string="Destination">
   <button id="all" v-on:click="getAllBookings">get All Bookings</button>
-  <ul v-if=Bookings.length>
-    <li id="LiListe" v-for="(booking, index) in Bookings">
-      
-      <h3>
-        Destination:
-        {{booking.destination}}
-      </h3>
+  <ul id="RejseListe" v-if=Bookings.length>
+    <li v-for="(booking, index) in Bookings" >
       <p>
         FlyNummer:
         {{booking.flightNr}}
       </p>
+      <h3>
+        Destination:
+        {{booking.destination}}
+      </h3>
       <p>
         firma:
         {{booking.company}}
       </p>
       <p>
         tid:
-        {{booking.travelTime}} timer
+        {{booking.travelTime}}
       </p>
       
-      <button v-on:click="selectedFlight(index)">Vis mere</button>
+      <button v-on:click="selectedFlight(index)" v-bind:id="booking.flightNr">Vis mere</button>
       <ul v-if="show == index">
         <p>
           CO2 udledning per. passager:
