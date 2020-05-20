@@ -15,13 +15,23 @@ interface Booking {
     fuelConsumption:number;
 }
 
+interface Measurements {
+    pressure: number;
+    humidity: number;
+    temperature: number;
+}
+
+
+
 
 let baseUri: string = "https://flightbookinginmemdb2020.azurewebsites.net/api/Flights"
+let baseuri2: string = "https://flightbookinginmemdb2020.azurewebsites.net/api/Measurements"
 
 var app = new Vue({
     el: "#app",
     data:{
         Bookings:[],
+        measurements:[],
         Errors:[],
         currentTemp:'',
         wind:'',
@@ -30,10 +40,13 @@ var app = new Vue({
         deleteMessage: "",
         formData: {flyNummer:"", destination:"",flytype:"", tid:0, mellemstop:"", selskab:"", vejr:"", Co2PerPassager:0, Co2PerKM:0},
         show: 1524,
-        CO2PerPassenger: 0
+        CO2PerPassenger: 0,
+             
     },
-    
 
+    
+        
+    
     methods:{
         getAllBookings(){
             axios.get<Booking[]>(baseUri)
@@ -45,7 +58,7 @@ var app = new Vue({
                 console.log(error.message)
             })
         },
-        deletebookings(deleteId: number){
+                deletebookings(deleteId: number){
             let uri: string = baseUri + "/" + deleteId
             axios.delete<void>(uri)
             .then((response: AxiosResponse)=>{
@@ -92,6 +105,23 @@ var app = new Vue({
              this.numberToBeRounded = (this.Bookings[i].fuelConsumption * 3.15) / this.Bookings[i].capacity
             this.CO2PerPassenger = Math.round(this.numberToBeRounded*10)/10
 
-         }
+            
+
+         },
+         getMeasurements(){
+            axios.get<Measurements[]>(baseuri2)
+            .then((Response: AxiosResponse<Measurements[]>)=>{
+                this.measurements= Response.data
+                console.log(Response.data)
+            })
+            .catch((error:AxiosError) =>{
+                console.log(error.message)
+            })
+        },
+    },
+    mounted:function(){
+       
+            this.getMeasurements()
+        
     }
 })

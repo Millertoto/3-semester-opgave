@@ -17,32 +17,54 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>Coding Template</title>
   <link rel="stylesheet" type="text/css" href="bundle.css">
+  <link rel="stylesheet1" href="scss/styles.scss">
 </head>
 
 <body>
-  <div id="DivUpperBox" style="border-style: groove; border-color: black; height: 250px;">
+  <div id="DivUpperBox" >
     <img style="display: block; margin-left: auto; margin-right: auto; " src="fly22.PNG" alt="Peter" width="1000" height="400">
   </div>
   <div id="app">
+    <div>
+      <ul v-if=measurements.length>
+       <div v-for="(measurement, index) in measurements">
+         <div v-if="index == measurements.length -1">
+         <p>
+           
+           Temperature
+           {{measurement.temperature}},  
+           pressure
+           {{measurement.pressure}},
+           Humidity
+           {{measurement.humidity}}
+         
+         </p>
+        </div>
+       </div>
+      </ul>
+    </div>
+
+
   <input type="Destination" v-model.string="Destination">
   <button id="all" v-on:click="getAllBookings">get All Bookings</button>
   <ul v-if=Bookings.length>
-    <li v-for="(booking, index) in Bookings">
-      <p>
-        FlyNummer:
-        {{booking.flightNr}}
-      </p>
+    <li id="LiListe" v-for="(booking, index) in Bookings">
+      
       <h3>
         Destination:
         {{booking.destination}}
       </h3>
+      <p>
+        FlyNummer:
+        {{booking.flightNr}}
+      </p>
       <p>
         firma:
         {{booking.company}}
       </p>
       <p>
         tid:
-        {{booking.travelTime}}
+        {{booking.travelTime}} timer
       </p>
       
       <button v-on:click="selectedFlight(index)">Vis mere</button>
